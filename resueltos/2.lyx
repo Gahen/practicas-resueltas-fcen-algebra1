@@ -1,0 +1,413 @@
+#LyX 2.0 created this file. For more info see http://www.lyx.org/
+\lyxformat 413
+\begin_document
+\begin_header
+\textclass article
+\use_default_options true
+\maintain_unincluded_children false
+\language english
+\language_package default
+\inputencoding auto
+\fontencoding global
+\font_roman default
+\font_sans default
+\font_typewriter default
+\font_default_family default
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 100
+\font_tt_scale 100
+
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\paperfontsize default
+\use_hyperref false
+\papersize default
+\use_geometry false
+\use_amsmath 1
+\use_esint 1
+\use_mhchem 1
+\use_mathdots 1
+\cite_engine basic
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\use_refstyle 1
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation indent
+\paragraph_indentation default
+\quotes_language english
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Section
+Determinar si 
+\begin_inset Formula $P(1)$
+\end_inset
+
+ es verdadera y para cuáles 
+\begin_inset Formula $k\in\mathbb{N}$
+\end_inset
+
+ vale que 
+\begin_inset Formula $P(k)$
+\end_inset
+
+ implica 
+\begin_inset Formula $P(k+1)$
+\end_inset
+
+ en cada uno de los siguientes casos
+\end_layout
+
+\begin_layout Subsection
+\begin_inset Formula $P(n):n\geq n^{2}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+P(1):1\geq1\rightarrow V
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+P(n)\Rightarrow P(n+1)\Leftrightarrow n\geq n^{2}\Rightarrow n+1\geq\left(n+1\right)^{2}\Leftrightarrow n\geq n^{2}\Rightarrow n+1\geq n^{2}+2n+1
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\Leftrightarrow n\geq n^{2}\Rightarrow1\geq n+2\rightarrow F\forall n\in\mathbb{N}\therefore P(n)\nRightarrow P(n+1)
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+\begin_inset Formula $P(n):2^{n}+3^{n}\leq5^{n}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+P(1):2+3\leq5\rightarrow V
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+P(n)\Rightarrow P(n+1)\Leftrightarrow2^{n}+3^{n}\geq5^{n}\Rightarrow2^{n+1}+3^{n+1}\geq5^{n+1}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+2^{n}+3^{n}\geq5^{n}\Leftrightarrow5\left(2^{n}+3^{n}\right)\geq5^{n+1}\Leftrightarrow(3+2)2^{n}+(3+2)3^{n}\geq5^{n+1}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\Leftrightarrow2^{n+1}+3*2^{n}+3^{n+1}+2*3^{n}\geq5^{n+1}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+2^{n+1}+3*2^{n}+3^{n+1}+2*3^{n}\geq2^{n+1}+3^{n+1}\therefore2^{n+1}+3^{n+1}\geq5^{n+1}\rightarrow V
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+\begin_inset Formula $P(n):n\geq13$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+P(1):1\geq13\rightarrow F
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+P(n)\Rightarrow P(n+1)\Leftrightarrow n\geq13\Rightarrow n+1\geq13
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+n+1\geq13\Leftrightarrow n\geq12
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\therefore n\geq13\Rightarrow n\geq12\rightarrow V,n\geq13
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Nota: estrictamente hablando el operador lógico 
+\begin_inset Quotes eld
+\end_inset
+
+entonces
+\begin_inset Quotes erd
+\end_inset
+
+ es verdadero si el antecedente es falso, por lo tanto esta afirmación vale
+ para todo n, cualquier número mayor a 13 será mayor a 12.
+\end_layout
+
+\begin_layout Subsection
+\begin_inset Formula $P(n):2^{n}\geq n^{2}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+P(1):2\geq1^{2}\rightarrow V;P(2):4\geq4\rightarrow V;P(3):8\geq9\rightarrow F;P(4):16\geq16\rightarrow V;P(5):32\geq25\rightarrow V
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+P(n)\Rightarrow P(n+1)\Leftrightarrow2^{n}\geq n^{2}\Rightarrow2^{n+1}\geq\left(n+1\right)^{2}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+2^{n}\geq n^{2}\Rightarrow2^{n+1}\geq\left(n+1\right)^{2}\Leftrightarrow2^{n}\geq n^{2}\Rightarrow2^{n+1}\geq n^{2}+2n+1
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+2^{n+1}\geq2*n^{2}\Leftrightarrow2^{n+1}\geq n^{2}+n^{2}\Leftrightarrow2n+1\leq n^{2}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+0\leq n^{2}-2n-1\Rightarrow\exists n_{0}/n>n_{0}P(n)\Rightarrow P(n+1)
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\mbox{A partir de los casos que probamos correspondería creer que basta }n_{0}=4
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\therefore(4+n)^{2}-2(4+n)-1=16+8n+n^{2}-8-2n-1=n^{2}+6n+7\rightarrow\geq0\forall n\in\mathbb{N}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+\begin_inset Formula $P(n):n+6\geq n+88$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+P(1):1+6\geq1+88\rightarrow F
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+P(n)\Rightarrow P(n+1)\Leftrightarrow n+6\geq n+88\Rightarrow n+7\geq n+89\Leftrightarrow6\geq88\Rightarrow7\geq89
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\therefore\mbox{Otra vez, siempre es verdadera, porque el antecedente es falso. "Si los marcianos saltan en una pata entonces mi caballo es fucsia": afirmación verdadera}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+\begin_inset Formula $P(n):2^{n}\geq n^{2}+5$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+P(1):2\geq1^{2}+5\rightarrow F
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+P(n)\Rightarrow P(n+1)\Leftrightarrow2^{n}\geq n^{2}+5\Rightarrow2^{n+1}\geq\left(n+1\right)^{2}+5
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+2^{n}\geq n^{2}+5\Leftrightarrow2^{n}\geq n^{2}+5
+\]
+
+\end_inset
+
+
+\end_layout
+
+\end_body
+\end_document
