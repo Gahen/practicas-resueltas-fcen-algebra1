@@ -1,0 +1,355 @@
+#LyX 2.0 created this file. For more info see http://www.lyx.org/
+\lyxformat 413
+\begin_document
+\begin_header
+\textclass article
+\use_default_options true
+\maintain_unincluded_children false
+\language english
+\language_package default
+\inputencoding auto
+\fontencoding global
+\font_roman default
+\font_sans default
+\font_typewriter default
+\font_default_family default
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 100
+\font_tt_scale 100
+
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\paperfontsize default
+\use_hyperref false
+\papersize default
+\use_geometry false
+\use_amsmath 1
+\use_esint 1
+\use_mhchem 1
+\use_mathdots 1
+\cite_engine basic
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\use_refstyle 1
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation indent
+\paragraph_indentation default
+\quotes_language english
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Section
+Resolver
+\end_layout
+
+\begin_layout Subsection
+\begin_inset Formula $a\equiv22(14)\Rightarrow\bigg\{\begin{matrix}a\equiv22(7)\\
+a\equiv22(2)
+\end{matrix}\Rightarrow\bigg\{\begin{matrix}a\equiv1(7)\\
+a\equiv0(2)
+\end{matrix}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+\begin_inset Formula $a\equiv13\equiv3(5)\Rightarrow a^{3}\equiv27\equiv2(5)\Rightarrow33a^{3}\equiv66\equiv1(5)$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+3a^{2}\equiv3*9\equiv2(5)\wedge197a\equiv2*3\equiv1(5)
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\therefore33a^{3}+3a^{2}-197a+2\equiv1+2-1+2\equiv4(5)
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+\begin_inset Formula $\sum_{i=1}^{n}\left(-1\right)^{i}i!\equiv x\left(36\right)$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+a_{n}=\left(-1\right)^{n}n!+a_{n-1}\rightarrow\mbox{Habría que demostrar esto.}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\begin{matrix}n & 1 & 2 & 3 & 4 & -5 & 6 & 7 & 8 & 9 & 10\\
+\sum_{i=1}^{n}\left(-1\right)^{i}i! & -1 & 1 & -5 & 21 & -100 & 620 & -4420 & 35900 & -326980 & 3301820\\
+??? & -1 & 1 & -5 & 21 & 8 & 8 & 8 & 8 & 8 & 8
+\end{matrix}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+6!\equiv0\left(36\right)\Rightarrow\left(-1\right)^{n}n!\equiv0\left(36\right)\forall n\geq6
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Resolver
+\end_layout
+
+\begin_layout Subsection
+\begin_inset Formula $a^{2}\equiv3\left(11\right)\Rightarrow a\in\left\{ \overline{0}...\overline{10}\right\} $
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\begin{matrix}n & 0 & 1 & 2 & 3 & 4 & 5 & 6 & 7 & 8 & 9 & 10\\
+n^{2}\left(11\right) & 0 & 1 & 4 & 9 & 5 & 3 & 3 & 5 & 9 & 4 & 1
+\end{matrix}\Rightarrow a^{2}\equiv3\left(11\right)\Leftrightarrow a\equiv5\vee a\equiv6
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+\begin_inset Formula $a^{3}\equiv-3\equiv10\left(13\right)$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\begin{matrix}n & 0 & 1 & 2 & 3 & 4 & 5 & 6 & 7 & 8 & 9 & 10 & 11 & 12\\
+n^{3}\left(13\right) & 0 & 1 & 8 & 1 & 12 & 8 & 8 & 5 & 5 & 1 & 12 & 5 & 12
+\end{matrix}\Rightarrow\nexists a/a^{3}\equiv-3\left(13\right)
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+\begin_inset Formula $a^{2}\equiv-1\equiv4\left(5\right)\Leftrightarrow a\equiv2\left(5\right)\vee a\equiv3\left(5\right)$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\begin{matrix}a & 0 & 1 & 2 & 3 & 4\\
+a^{2}\left(5\right) & 0 & 1 & 4 & 4 & 1
+\end{matrix}\Rightarrow a^{2}\equiv4\equiv-1\left(5\right)\Leftrightarrow a\equiv2\left(5\right)\vee a\equiv3\left(5\right)
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+\begin_inset Formula $a^{7}\equiv a\Leftrightarrow\begin{cases}
+a^{6}\equiv1\left(7\right) & a\not\equiv0\\
+a\equiv0 & a\equiv0
+\end{cases}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\Rightarrow a^{6}>0\Rightarrow a^{6}\in\mathbb{N}\Rightarrow a^{6}\equiv1\left(7\right)\rightarrow\mbox{Por el pequeño teorema de Fermat}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\therefore a^{7}\equiv a
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+\begin_inset Formula $qvq:7|a^{2}+b^{2}\Rightarrow7|a\wedge7|b$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\begin{matrix}a & 0 & 1 & 2 & 3 & 4 & 5 & 6\\
+a^{2}\left(7\right) & 0 & 1 & 4 & 2 & 2 & 4 & 1
+\end{matrix}\Rightarrow a^{2},b^{2}\in\left\{ \overline{0},\overline{1},\overline{2},\overline{4}\right\} \rightarrow\mbox{Vale lo mismo para \ensuremath{a}y para \ensuremath{b}}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\begin{cases}
+b^{2}=\overline{0} & \mbox{Si }a^{2}=\overline{0}\\
+b^{2}=k/a^{2}+k\equiv0\left(7\right) & \mbox{Si }a^{2}\neq\overline{0}
+\end{cases}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+a^{2}\neq\overline{0}\Leftrightarrow b^{2}\in\left\{ \overline{6},\overline{5},\overline{3}\right\} \rightarrow\mbox{inversos para la suma de }a^{2}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\mbox{absurdo}\Rightarrow a^{2}\equiv0\left(7\right)\Rightarrow b^{2}\equiv0\left(7\right)
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\therefore7|a\wedge7|b
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+\begin_inset Formula $a^{2}+b^{2}+1\equiv0\left(5\right)\Leftrightarrow a^{2}+b^{2}\equiv4\left(5\right)$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\begin{matrix}n & 0 & 1 & 2 & 3 & 4\\
+n^{2}\left(5\right) & 0 & 1 & 4 & 4 & 1
+\end{matrix}\Rightarrow\begin{cases}
+a^{2}=0\Rightarrow & b^{2}=4\\
+a^{2}=1\Rightarrow & b^{2}=3\rightarrow\notin\left\{ 0,1,4\right\} \\
+a^{2}=4\Rightarrow & b^{2}=0
+\end{cases}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\therefore\left(a^{2}=0\wedge b^{2}=4\right)\vee\left(a^{2}=4\wedge b^{2}=0\right)\mbox{ lqqd}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+\begin_inset Formula $1000\equiv0\left(8\right)\Rightarrow8|n=1000*k+n'\mbox{ con }0\leq n'<1000\Leftrightarrow8|n'$
+\end_inset
+
+ es divisible por 8 
+\end_layout
+
+\end_body
+\end_document
