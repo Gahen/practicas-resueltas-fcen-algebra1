@@ -64,11 +64,19 @@ Resolver
 \end_layout
 
 \begin_layout Subsection
-\begin_inset Formula $a\equiv22(14)\Rightarrow\bigg\{\begin{matrix}a\equiv22(7)\\
+r
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+a\equiv22(14)\Rightarrow\bigg\{\begin{matrix}a\equiv22(7)\\
 a\equiv22(2)
 \end{matrix}\Rightarrow\bigg\{\begin{matrix}a\equiv1(7)\\
 a\equiv0(2)
-\end{matrix}$
+\end{matrix}
+\]
+
 \end_inset
 
 
@@ -349,6 +357,350 @@ a^{2}=4\Rightarrow & b^{2}=0
 \end_inset
 
  es divisible por 8 
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+10^{n}\equiv1^{n}\left(9\right)\Rightarrow X=10^{0}*x_{0}+10^{1}*x_{1}+...+10^{n}*x_{n}\equiv0\left(9\right)\Leftrightarrow\sum_{i=0}^{n}x_{i}\equiv0\left(9\right)
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+10^{n}\equiv\left(-1\right)^{n}\left(11\right)\Rightarrow X=\sum_{i=0}^{n}x_{i}10^{i}\equiv0\left(11\right)\Leftrightarrow\sum_{i=0}^{n/2}x_{2i}-\sum_{i=0}^{n/2}x_{2i+1}\equiv0\left(11\right)
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Resolver
+\end_layout
+
+\begin_layout Subsection
+Probar que 
+\begin_inset Formula $2^{5n}\equiv1\left(31\right)\forall n\in\mathbb{N}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+2^{5}\equiv32\equiv1\left(31\right)\Rightarrow\left(2^{5}\right)^{n}\equiv1^{n}\left(31\right)
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+Hallar el resto de la división de 
+\begin_inset Formula $2^{51833}$
+\end_inset
+
+ por 
+\begin_inset Formula $31$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+2^{51830}*2^{3}\equiv1^{10366}*8\equiv8\left(31\right)
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+Sea 
+\begin_inset Formula $k\in\mathbb{N}$
+\end_inset
+
+.
+ Sabiend que 
+\begin_inset Formula $2^{k}\equiv39\left(31\right)$
+\end_inset
+
+.
+ Hallar el resto de la división de k por 5.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+2^{k}\equiv39\left(31\right)\Leftrightarrow2^{k}\equiv8\left(31\right)\Rightarrow k=5q+3,q\in\mathbb{N}\rightarrow\mbox{Por lo visto anteriormente}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\Rightarrow k\equiv5q+3\equiv3\left(5\right)
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+Hallar el resto de la división de 
+\begin_inset Formula $32*2^{163}+11*5^{221}+61^{999}$
+\end_inset
+
+ por 
+\begin_inset Formula $31$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+32*2^{163}\equiv1*\left(2^{5}\right)^{32}*2^{3}\equiv8\left(31\right)
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+11*5^{221}\equiv11*\left(5^{3}\right)^{73}*5^{2}\equiv11*\left(125\right)^{73}*25\equiv275\equiv27\rightarrow125\equiv1\left(31\right)
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+61^{999}\equiv30^{999}\equiv-1^{999}\equiv-1\left(31\right)
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\therefore32*2^{163}+11*5^{221}+61^{999}\equiv8+1-1\equiv8\left(31\right)
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Resolver
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+d=\left(2^{n+1}+5^{n}:2^{n}+5^{n+1}\right)\Rightarrow\begin{matrix}d|2^{n+1}+5^{n}\\
+d|2^{n}+5^{n+1}
+\end{matrix}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\begin{matrix}d\mid5^{n}-2*5^{n+1}=5^{n}\left(1-10\right)=5^{n}*-9\\
+d\mid2^{n}-5*2^{n+1}=2^{n}(1-10)=2^{n}*-9
+\end{matrix}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+d\not\mid5\wedge d\not\mid2\wedge d\mid9\Rightarrow d=\left\{ 1,3,9\right\} 
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+d=9\Leftrightarrow2^{n+1}+5^{n}\equiv0\left(9\right)\wedge2^{n}+5^{n+1}\equiv0\left(9\right)
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+2^{n+1}+5^{n}\equiv0\left(9\right)\wedge2^{n}+5^{n+1}\equiv0\left(9\right)
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+2^{n+1}+5^{n}-2^{n}-5^{n+1}\equiv0\left(9\right)
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+2^{n}\left(2-1\right)-5^{n}\left(5-1\right)\equiv0\left(9\right)\Leftrightarrow2^{n}\equiv5^{n}\left(2^{2}\right)\left(9\right)
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+???????
+\end_layout
+
+\begin_layout Section
+p
+\end_layout
+
+\begin_layout Section
+p
+\end_layout
+
+\begin_layout Section
+p
+\end_layout
+
+\begin_layout Section
+p
+\end_layout
+
+\begin_layout Section
+Resolver
+\end_layout
+
+\begin_layout Subsection
+\begin_inset Formula $5a+8b=3$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\left(5:8\right)=1\mid3\Rightarrow\exists\mbox{solución}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+5*-1+8*1=3\Rightarrow x_{0}=-1\wedge y_{0}=1\Rightarrow x=-1+8q\wedge y=1-5q
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+\begin_inset Formula $24a+14b=7$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\left(24:14\right)=2\not\mid7\Rightarrow\nexists\mbox{Solución}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+\begin_inset Formula $39a-24b=6$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\left(39:24\right)=1\mid6\Rightarrow\exists\mbox{solución}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\]
+
+\end_inset
+
+
 \end_layout
 
 \end_body
